@@ -46,7 +46,7 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
     <img class="w-16 lg:w-24" src="./assets/2021Twitter_logo-blue.png" alt="twitter-logo" />
   </a>
   <a
-    href="https://youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q"
+    href="https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw"
     id="youtube-channel-link"
     target="_blank"
     class="fixed right-10 bottom-10 lg:right-20 lg:bottom-20 transform hover:-rotate-6 hover:scale-110 duration-200"
