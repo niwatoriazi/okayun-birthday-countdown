@@ -29,12 +29,12 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
   <div id="frame" class="fixed inset-0 w-screen h-screen pointer-events-none"></div>
   <a
     href="https://niwatoriazi.github.io/korosan-birthday-countdown/"
-    id="twitter-share-link"
+    id="korosan-counter-link"
     class="fixed right-10 bottom-38 lg:right-20 lg:bottom-76 transform hover:-rotate-6 hover:scale-110 duration-200"
   >
     <img
       src="./assets/1f950.svg"
-      class="w-24"
+      class="w-16 lg:w-24"
     />
   </a>
   <a
@@ -120,6 +120,9 @@ body {
   @media (orientation: portrait) {
     border: solid 30px #b190fc;
   }
+}
+#korosan-counter-link {
+  cursor: url(./assets/negitoro-onigiri.png), pointer;
 }
 #twitter-share-link {
   cursor: url(./assets/negitoro-onigiri.png), pointer;
