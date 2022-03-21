@@ -26,7 +26,7 @@ import CountDownWrapper from "./components/CountDownWrapper.vue";
       target="_blank"
       id="copy-right"
       class="text-xs lg:text-base text-center underline text-white"
-      >©2021 にわとりあじ</a
+      >©2022 にわとりあじ</a
     >
   </div>
   <div
