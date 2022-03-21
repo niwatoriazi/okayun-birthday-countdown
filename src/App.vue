@@ -1,5 +1,5 @@
 <script setup>
-import CountDownWrapper from './components/CountDownWrapper.vue';
+import CountDownWrapper from "./components/CountDownWrapper.vue";
 </script>
 
 <template>
@@ -16,7 +16,9 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
   </div>
   <CountDownWrapper></CountDownWrapper>
   <div id="page-title-wrapper" class="display-width">
-    <p id="page-title" class="text-sm lg:text-base text-center text-white">おかゆんお誕生日カウントダウン(非公式)</p>
+    <p id="page-title" class="text-sm lg:text-base text-center text-white">
+      おかゆんお誕生日カウントダウン(非公式)
+    </p>
   </div>
   <div id="copy-wright-wrapper" class="display-width">
     <a
@@ -24,18 +26,19 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
       target="_blank"
       id="copy-right"
       class="text-xs lg:text-base text-center underline text-white"
-    >©2021 にわとりあじ</a>
+      >©2021 にわとりあじ</a
+    >
   </div>
-  <div id="frame" class="fixed inset-0 w-screen h-screen pointer-events-none"></div>
+  <div
+    id="frame"
+    class="fixed inset-0 w-screen h-screen pointer-events-none"
+  ></div>
   <a
     href="https://niwatoriazi.github.io/korosan-birthday-countdown/"
     id="korosan-counter-link"
     class="fixed right-10 bottom-38 lg:right-20 lg:bottom-76 transform hover:-rotate-6 hover:scale-110 duration-200"
   >
-    <img
-      src="./assets/1f950.svg"
-      class="w-16 lg:w-24"
-    />
+    <img src="./assets/1f950.svg" class="w-16 lg:w-24" />
   </a>
   <a
     href="https://twitter.com/nekomataokayu"
@@ -43,7 +46,11 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
     target="_blank"
     class="fixed right-10 bottom-24 lg:right-20 lg:bottom-48 transform hover:-rotate-6 hover:scale-110 duration-200"
   >
-    <img class="w-16 lg:w-24" src="./assets/2021Twitter_logo-blue.png" alt="twitter-logo" />
+    <img
+      class="w-16 lg:w-24"
+      src="./assets/2021Twitter_logo-blue.png"
+      alt="twitter-logo"
+    />
   </a>
   <a
     href="https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw"
@@ -51,7 +58,11 @@ import CountDownWrapper from './components/CountDownWrapper.vue';
     target="_blank"
     class="fixed right-10 bottom-10 lg:right-20 lg:bottom-20 transform hover:-rotate-6 hover:scale-110 duration-200"
   >
-    <img class="w-16 lg:w-24" src="./assets/youtube_social_icon_red.webp" alt="youtube-logo" />
+    <img
+      class="w-16 lg:w-24"
+      src="./assets/youtube_social_icon_red.webp"
+      alt="youtube-logo"
+    />
   </a>
 </template>
 

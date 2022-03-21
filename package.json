@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "dayjs": "^1.10.7",
+    "prettier": "^2.6.0",
     "sass": "^1.44.0",
     "vue": "^3.2.16"
   },
